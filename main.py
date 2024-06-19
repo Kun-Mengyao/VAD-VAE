@@ -11,7 +11,7 @@ from utils import ErcTextDataset, get_num_classes, get_label_VAD, convert_label_
 import os
 import math
 import argparse
-import yaml
+# import yaml
 from torch.nn.utils.rnn import pad_sequence
 from sklearn.metrics import f1_score, confusion_matrix, accuracy_score, classification_report, \
     precision_recall_fscore_support, precision_score, recall_score
